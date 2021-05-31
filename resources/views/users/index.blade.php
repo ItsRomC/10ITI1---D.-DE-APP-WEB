@@ -180,6 +180,24 @@
                     <i class="ni ni-pin-3 text-orange"></i> {{ __('Maps') }}
                 </a>
             </li>
+            
+            
+             
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('negocios') }}">
+                    <i class="ni ni-planet text-blue"></i> {{ __('Negocios') }}
+                </a>
+            </li> 
+
+
+            <li class="nav-item ">
+                <a class="nav-link" href="{{ route('alimentos') }}">
+                    <i class="ni ni-pin-3 text-orange"></i> {{ __('Alimentos') }}
+                </a>
+            </li>
+
+
+
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('table') }}">
                   <i class="ni ni-bullet-list-67 text-default"></i>
